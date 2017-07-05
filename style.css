@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  position: relative;
+  font-family: Helvetica;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  z-index: 3
+  position: relative;
+  top: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.myname {
+  color: white;
+  z-index: 2;
+  text-decoration: none;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: default;
+}
+.myname,
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  background-color: #5b66ff;
+  height: 50px;
+}
+
+.container {
+  width: 100%;
+  z-index: 1;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.container a:hover {
+  color: blue;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.container a:first-of-type {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container a:last-of-type {
+  margin-right: 20px;
+}
+
+main {
+  position: relative;
+  top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
