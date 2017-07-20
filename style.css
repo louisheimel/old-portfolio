@@ -70,11 +70,17 @@ main {
 }
 
 main a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   color: blue;
 }
 
 #backend {
   margin-bottom: 60px;
+}
+
+img {
+  width: 500px;
+  height: auto;
+  display: block;
 }
