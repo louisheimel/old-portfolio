@@ -67,6 +67,7 @@ main {
   top: 50px;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
 main a {
@@ -84,3 +85,11 @@ img {
   height: auto;
   display: block;
 }
+
+main div a {
+  margin: 30px;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+}
+
+.gh-link { display: block; width: 32px; height: 32px; margin: 0 auto; border: none;}
