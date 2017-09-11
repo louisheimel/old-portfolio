@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "axios": "^0.16.2",
     "bulma": "^0.5.2",
     "gh-pages": "^1.0.0",
     "react-router": "^4.2.0",
