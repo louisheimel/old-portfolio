@@ -26,5 +26,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://louisheimel.github.io/portfolio"
+  "homepage": "https://louisheimel.github.io/"
 }
